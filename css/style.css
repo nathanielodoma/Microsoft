@@ -1,0 +1,247 @@
+*{
+    list-style: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-family: inherit;
+}
+.logo img{
+    width: 120px;
+    padding: 10px 70px 10px 70px;
+}
+.nav-text ul{
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    margin-top: 0px;
+}
+.nav-text{
+    margin-left: -80px;
+    margin-top: 5px;
+}
+.nav-text li{
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-text li:hover{
+    text-decoration: 2px solid black underline;
+}
+.nav-images ul{
+    display: flex;
+    padding-left: 400px;
+    margin-top: 2px;
+}
+.all:hover{
+    text-decoration: 2px solid black underline;
+}
+.nav-images li{
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.nav-images img{
+    width: 25px;
+    height: 25px;
+    justify-content: space-between;
+}
+.section-one{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Bing-AI-Open-Preview:VP4-1399x600);
+    height: 540px;
+    font-family: inherit;
+    margin-top: -40px;
+}
+.section-one h2{
+    padding-left: 100px;
+    padding-top: 120px;
+    font-size: 30px;
+    font-family: inherit;
+}
+.section-one p{
+    font-family: inherit;
+    padding-left: 100px;
+}
+.section-one button{
+    margin-left: 100px;
+    width: 170px;
+    color: white;
+    background-color: #0067b8;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border: #0067b8;
+    cursor: pointer;
+}
+.section-one button:hover{
+    background-color: rgb(2, 2, 141);
+}
+.section-two{
+    display: flex;
+    padding: 150px 0px 100px 20px;
+}
+.section-two img{
+    margin: 0px 15px;
+}
+.section-two h2{
+    padding-left: 15px;
+}
+.section-two p{
+    padding-left: 15px;
+}
+.section-two h4{
+    padding-left: 15px;
+    color: #0067b8;
+    cursor: pointer;
+}
+.section-two h4:hover{
+    text-decoration: underline;
+}
+.section-three{
+    background-image: url(../img/section\ three.jfif);
+    height: 540px;
+    width: 1250px;
+    margin-left: 40px;
+}
+.section-three h2{
+    padding-left: 100px;
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: inherit;
+}
+.section-three p{
+    font-family: inherit;
+    padding-left: 100px;
+}
+.section-three button{
+    margin-left: 100px;
+    width: 170px;
+    color: white;
+    background-color: #0067b8;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 600;
+    border: #0067b8;
+    cursor: pointer;
+}
+.section-three button:hover{
+    background-color: rgb(2, 2, 141);
+}
+.section-four{
+    display: flex;
+    padding: 50px 0px 100px 20px;
+}
+.section-four2{
+    padding-top: 72px;
+}
+.section-four3{
+    padding-top: 72px;
+}
+.section-four4{
+    padding-top: 72px;
+}
+.section-four img{
+    margin: 0px 15px;
+}
+.section-four h2{
+    padding-left: 15px;
+}
+.section-four p{
+    padding-left: 15px;
+}
+.section-four h4{
+    padding-left: 15px;
+    color: #0067b8;
+    cursor: pointer;
+}
+.section-four h4:hover{
+    text-decoration: underline;
+}
+.follow-microsoft{
+    padding-left: 50px;
+    display: flex;
+}
+.follow-microsoft p{
+    padding-right: 30px;
+    padding-bottom: 50px;
+    margin-top: 5px;
+}
+.follow-microsoft img{
+    width: 35px;
+    height: 35px;
+}
+.last-section{
+    display: flex;
+}
+.btn button{
+    margin-left: 900px;
+    width: 160px;
+    height: 40px;
+    font-size: 17px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(206, 206, 206);
+}
+.btn button:hover{
+    background-color: white;
+}
+footer{
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    padding-bottom: 40px;
+}
+footer li{
+    padding: 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+footer li:hover{
+    text-decoration: underline;
+}
+footer ul{
+    margin: 10px;
+}
+.microsoft-store{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+}
+.microsoft-store:hover{
+    text-decoration: none;
+}
+.education{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+}
+.education:hover{
+    text-decoration: none;
+}
+.business{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+}
+.business:hover{
+    text-decoration: none;
+}
+.developer{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+}
+.developer:hover{
+    text-decoration: none;
+}
+.company{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: auto;
+}
+.company:hover{
+    text-decoration: none;
+}
